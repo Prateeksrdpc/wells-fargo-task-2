@@ -24,7 +24,10 @@ public class Security {
         this.purchasePrice = purchasePrice;
         this.quantity = quantity;
     }
-
+protected  Security()
+{
+    
+}
     @Column(nullable = false)
     private double purchasePrice;
     @CreatedDate
